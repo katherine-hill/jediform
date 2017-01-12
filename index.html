@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Force User Sign Up</title>
+<link rel="stylesheet" href="Styles/main.css">
+</head>
+
+<body id="grad">
+<header>
+  <img src="images/Galactic_Republic_Symbol.png" alt="Symbol of the Galactic Republic in Star Wars">
+  <h1>Force User Sign Up Form</h1>
+</header>
+<form class="columns" action="http://requestb.in/x9kwnmx9" method="post">
+<fieldset>
+  <legend>Basic Info</legend>
+
+  <label for="fullname">Full Name</label>
+  <input id="fullname"type="text" placeholder="full name" name="fullname" required="required"><br>
+  <label for="password">Password<label>
+  <input id="password" type="password" name="password"required="required"><br>
+  <label for="profilepicture">Profile Picture</label>
+  <input id="profilepicture" type="file" name="profilepicture" accept="image/gif, image/jpeg, image/png"><br>
+  <label for="email">Email</label>
+  <input id="email" type="email" placeholder="artoo@notthedroidsyourelookingfor.com" name="email" required="required"><br>
+
+  <label for="side">Side</label>
+  <input id="side" type="radio" name="side" value="Light" checked> Light
+  <input id="side" type="radio" name="side" value="Dark"> Dark <br>
+
+  <label for="originstory">Origin Story</label><br>
+  <textarea id="originstory" maxlength="255" required="required"></textarea>
+</fieldset>
+
+<fieldset>
+  <legend>Abilities</legend>
+    <label>Light Saber Color</label>
+  <select id="lightsabercolor" name="light saber color">
+    <option>blue</option>
+    <option>red</option>
+    <option>purple</option>
+    <option>indigo</option>
+  </select><br>
+
+  <label for="levitation">How many items can you levitate?</label>
+  <input id="levitation" type="number" min="1" value="10" name="levitation"><br>
+
+  <label for="favoriteability">Favorite Ability</label>
+  <input id="favoriteability" type="text" placeholder="force choke" maxlength="30" name="favoriteability">
+
+  <fieldset>
+    <legend>Pilot Experience</legend>
+    <label class="checks" for="tiefighter">Tie Fighter</label>
+    <input id="tiefighter" type="checkbox">
+
+    <label class="checks" for="bantha">Bantha</label>
+    <input id="bantha" type="checkbox">
+
+    <label class="checks" for="xwing">X Wing</label>
+    <input id="xwing" type="checkbox">
+
+    <label class="checks" for="atat">AT-AT</label>
+    <input id="atat" type="checkbox">
+
+    <label class="checks" for="deathstar">Death Star</label>
+    <input id="deathstar" type="checkbox">
+
+    <label class="checks" for="chocobo">Chocobo</label>
+    <input id="chocobo" type="checkbox">
+
+  </fieldset>
+
+</fieldset>
+
+<fieldset>
+  <legend>Application Info</legend>
+  <label for="desiredmentor">Desired Mentor</label>
+  <input id="desdiredmentor" type="text" placeholder="Emporer Palpatine" name="desiredmentor"><br>
+
+  <label for="applicationdate">Application Date</label>
+  <input id=:"applicationdate" type="date" value="1991-07-22" name="applicationdate" required="required"><br>
+  <label for="darkside">How do you get to the darkside?</label><br>
+  <textarea id="darkside" maxlength="255"></textarea><br>
+
+  <label for="Submit">
+  <input id="submit" type="submit" value="Submit">
+  <label for="reset">
+  <input id="reset" type="reset">
+</fieldset>
+
+
+</form>
+
+
+<footer>
+  <img class="logo" src="images/Galactic_Republic_Symbol.png" alt="Symbol of the Galactic Republic in Star Wars">
+  <span>&copy; Long ago, in a Galaxy far away<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script></span>
+</footer>
+</body>
+</html>

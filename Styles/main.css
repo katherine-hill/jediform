@@ -1,0 +1,75 @@
+
+#grad {
+    background-image: linear-gradient(
+      to left,
+      grey, white
+      );
+}
+
+form  {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    column-gap:2px;
+    column-width:100px;
+}
+
+header {
+  text-align: center;
+}
+
+header> img {
+  width:300px;
+}
+
+legend{
+  font-family: Impact;
+}
+
+label {
+  font-family: sans-serif;
+}
+
+input:invalid {
+  background-color: #ffff66;
+}
+
+input:valid {
+  background-color: #99ccff;
+}
+
+form:valid {
+  border: #99ccff;
+}
+
+input:required {
+  border-color: #800000;
+  border-width: 3px;
+}
+
+input:required:invalid {
+  border-color: #C00000;
+}
+
+textarea:required:invalid {
+  background-color: #ffff66;
+  border-color: #C00000;
+}
+
+input:focus {
+  background-color:grey;
+  border-width:3px;
+  border-color:#800000;
+}
+fieldset {
+  break-after: column;
+  border-color: #800000;
+  border-style: double;
+}
+.logo {
+  padding-top: 10px;
+  width: 30px
+}
+.checks{
+    display: block;
+}
